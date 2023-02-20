@@ -1,6 +1,3 @@
-(require 'markdown-mode)
-(markdown-command "/usr/local/bin/pandoc --mathjax")
-(markdown-display-remote-images t)
-(markdown-enable-math t)
+(require 'eaf-markdown-previewer)
 
 (provide 'init-markdown)

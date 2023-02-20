@@ -8,9 +8,14 @@
 (setq auto-save-default nil)
 
 (require 'init-plugins)
+(require 'eaf)
+(require 'eaf-pdf-viewer)
+(setq eaf-pdf-dark-mode nil)
+(require 'eaf-terminal)
 (require 'init-edit)
 (require 'init-evil)
 (require 'init-ui)
 (require 'init-markdown)
+(require 'init-latex)
 
 (provide 'init)
